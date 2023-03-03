@@ -1,0 +1,7 @@
+For this project, we’ll use the following parts:
+
+ESP32-CAM AI-Thinker with external antenna
+L298N Motor Driver
+Robot Car Chassis Kit
+Power bank or other 5V power supply
+Prototyping circuit board (optional)
