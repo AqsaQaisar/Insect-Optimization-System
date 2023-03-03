@@ -32,6 +32,7 @@ Start by connecting the ESP32-CAM to the motor driver as shown in the schematic 
 We assembled all the connections on a mini stripboard as shown below.
 
 ![image](https://user-images.githubusercontent.com/126898862/222800360-c3fbe924-1905-45e7-b0c3-4c116afafaed.png)
+
 𝓝𝓸𝓽𝓮 we suggest soldering a 0.1 uF ceramic capacitor to the positive and negative terminals of each motor, as shown in the diagram to help smooth out any voltage spikes. Additionally, you can solder a slider switch to the red wire that comes from the power bank. This way, you can turn the power on and off.
 
 Finally, apply power with a power bank as shown in the schematic diagram. You need to strip a USB cable. In this example, the ESP32-CAM and the motors are being powered using the same power source and it works well.
