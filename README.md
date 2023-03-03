@@ -4,15 +4,15 @@ This project is all about automatic pest detection system.This project is used t
 
 𝐂𝐨𝐧𝐭𝐞𝐱𝐭
 
-1)Introduction
+『1』Introduction
 
-2)Circuit diagram
+『2』Circuit diagram
 
-3)Scope
+『3』Scope
 
-4)Code
+『4』Code
 
-5)Requirements
+『5』Requirements
 
 𝐈𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧
 
@@ -27,6 +27,18 @@ A farmer can monitor the health of its crop form distant locations and protect i
 After assembling the robot chassis, you can wire the circuit by following the next schematic diagram.
 ![image](https://user-images.githubusercontent.com/126898862/222795510-570fd972-9b4e-4317-892c-8b6db89ca3eb.png)
 Start by connecting the ESP32-CAM to the motor driver as shown in the schematic diagram. You can either use a mini breadboard or a stripboard to place your ESP32-CAM and build the circuit.
+We assembled all the connections on a mini stripboard as shown below.
+
+![image](https://user-images.githubusercontent.com/126898862/222800360-c3fbe924-1905-45e7-b0c3-4c116afafaed.png)
+𝓝𝓸𝓽𝓮 we suggest soldering a 0.1 uF ceramic capacitor to the positive and negative terminals of each motor, as shown in the diagram to help smooth out any voltage spikes. Additionally, you can solder a slider switch to the red wire that comes from the power bank. This way, you can turn the power on and off.
+
+Finally, apply power with a power bank as shown in the schematic diagram. You need to strip a USB cable. In this example, the ESP32-CAM and the motors are being powered using the same power source and it works well.
+
+𝓝𝓸𝓽𝓮 the motors draw a lot of current, so if you feel your robot is not moving fast enough, you may need to use an external power supply for the motors. This means you need two different power sources. One to power the DC motors, and the other to power the ESP32. You can use a 4 AA battery pack to power the motors. When you get your robot chassis kit, you usually get a battery holder for 4 AA batteries.
+
+Your robot should look similar to the following figure:
+![image](https://user-images.githubusercontent.com/126898862/222800773-5cadf1ee-61bd-472a-a271-511104cc9f86.png)
+
 
 𝐒𝐜𝐨𝐩𝐞
 
@@ -470,12 +482,12 @@ void loop() {
 
 For this project, we’ll use the following parts:
 
-1)ESP32-CAM AI-Thinker with external antenna
+『1』ESP32-CAM AI-Thinker with external antenna
 
-2)L298N Motor Driver
+『2』L298N Motor Driver
 
-3)Robot Car Chassis Kit
+『3』Robot Car Chassis Kit
 
-4)Power bank or other 5V power supply
+『4』Power bank or other 5V power supply
 
-5)Prototyping circuit board (optional)
+『5』Prototyping circuit board (optional)
