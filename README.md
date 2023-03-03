@@ -2,6 +2,7 @@
 This project is all about automatic pest detection system.This project is used to avoid hurdles in robot car way it automatically moves away when detect a hurdle, and had a mop that is used to clean where the dust is detected.
 
 𝐂𝐨𝐧𝐭𝐞𝐱𝐭
+
 1)Introduction
 
 2)Circuit diagram
@@ -468,8 +469,12 @@ void loop() {
 
 For this project, we’ll use the following parts:
 
-ESP32-CAM AI-Thinker with external antenna
-L298N Motor Driver
-Robot Car Chassis Kit
-Power bank or other 5V power supply
-Prototyping circuit board (optional)
+1)ESP32-CAM AI-Thinker with external antenna
+
+2)L298N Motor Driver
+
+3)Robot Car Chassis Kit
+
+4)Power bank or other 5V power supply
+
+5)Prototyping circuit board (optional)
