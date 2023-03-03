@@ -1,4 +1,5 @@
 𝐈𝐧𝐬𝐞𝐜𝐭 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐒𝐲𝐬𝐭𝐞𝐦
+
 This project is all about automatic pest detection system.This project is used to avoid hurdles in robot car way it automatically moves away when detect a hurdle, and had a mop that is used to clean where the dust is detected.
 
 𝐂𝐨𝐧𝐭𝐞𝐱𝐭
