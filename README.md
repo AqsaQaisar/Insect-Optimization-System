@@ -1,13 +1,19 @@
 𝐈𝐧𝐬𝐞𝐜𝐭 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐒𝐲𝐬𝐭𝐞𝐦
 This project is all about automatic pest detection system.This project is used to avoid hurdles in robot car way it automatically moves away when detect a hurdle, and had a mop that is used to clean where the dust is detected.
+
 𝐂𝐨𝐧𝐭𝐞𝐱𝐭
 1)Introduction
+
 2)Circuit diagram
+
 3)Scope
+
 4)Code
+
 5)Requirements
 
 𝐈𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧
+
 A car charge with solar energy and by using actuator it automatically detects a pest and used a pest spray attach to car to remove and kill pests.
 The sensor used in project is high power thermal sensor to detect spectral reflection caused by grass to detect a pest or extra weed. We also used a low power camera to record a surface for further action and send it to centralized platform automatically. 
 An optical camera capture images of grass land and then compare it with existing images of a healthy leaves taken for result testing. Change in chlorophyll patterns indicates the presence of weeds or pests. 
@@ -15,14 +21,17 @@ The data collected through these sensors is quickly transferred to a centralized
 A farmer can monitor the health of its crop form distant locations and protect it from the attack of pesticides and harmful herbs and weeds.Remote pest monitoring has radically reduced offline inspection and random field visits.
 
 𝐜𝐢𝐫𝐜𝐮𝐢𝐭 𝐃𝐢𝐚𝐠𝐫𝐚𝐦
+
 After assembling the robot chassis, you can wire the circuit by following the next schematic diagram.
 ![image](https://user-images.githubusercontent.com/126898862/222795510-570fd972-9b4e-4317-892c-8b6db89ca3eb.png)
 Start by connecting the ESP32-CAM to the motor driver as shown in the schematic diagram. You can either use a mini breadboard or a stripboard to place your ESP32-CAM and build the circuit.
 
 𝐒𝐜𝐨𝐩𝐞
+
 The system only detects pests and herbs and used pest spray to kill it rather than controlling field temperature and environment some pests are difficult to detect, proper attempt will be made to surely identify the pests and helps to remove them, it is important so that field health remain stable. Manual inspection cant be needed if this procedure is done in proper way. This will automatically reduce time consuming operations.The system uses an optical camera of low power to fully consume the area of the field.  Internet of Things in the agriculture sector has brought in a major evolution related to on-field pest management. A farm owner can now use different sensors to monitor the growth of pests and weeds and take further steps to manage them.
 
 𝐂𝐨𝐝𝐞
+
 #include "esp_camera.h"
 #include <WiFi.h>
 #include "esp_timer.h"
@@ -456,6 +465,7 @@ void loop() {
 }
 
 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬
+
 For this project, we’ll use the following parts:
 
 ESP32-CAM AI-Thinker with external antenna
